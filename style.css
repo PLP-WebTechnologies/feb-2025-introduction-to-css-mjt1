@@ -1,0 +1,45 @@
+/* ID selector for the main heading */
+#app-title {
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #0e7490; /* Deep turquoise */
+  margin: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #14b8a6; /* Bright turquoise */
+  text-align: center;
+}
+
+/* Class selector for info cards */
+.card {
+  background-color: #e0f7f9; /* Light turquoise background */
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid #99f6e4; /* Pale turquoise border */
+  border-radius: 8px;
+  width: 80%;
+  font-family: 'Segoe UI', sans-serif;
+  color: #0f172a; /* Dark slate text for contrast */
+}
+
+/* Element selector for paragraphs */
+p {
+  line-height: 1.7;
+  color: #0e7490; /* Matching turquoise for text */
+  margin-bottom: 10px;
+}
+
+/* Style an image (e.g., app logo or avatar) */
+img.logo {
+  display: block;
+  margin: 0 auto 20px;
+  width: 120px;
+  border: 3px solid #14b8a6; /* Bright turquoise */
+  border-radius: 50%;
+}
+/* Style for the new image */
+.app-image {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px; /* Adjust based on desired size */
+  border-radius: 8px;
+}
